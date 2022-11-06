@@ -75,6 +75,83 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='malle_image'>
+                  <img src='images/rfad.png' width="160"></div>
+                <img src='images/rfad.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2210.12067">
+                <papertitle>Efficient Dataset Distillation using Random Feature Approximation</papertitle>
+              </a>
+              <br>
+              <strong>Noel Loo</strong>,
+              Ramin Hasani,
+              Alexander Amini,
+              Daniela Rus
+              <br>
+              <em>NeurIPS</em>, 2022
+              <br>
+              <a href="https://arxiv.org/abs/2210.12067">arXiv</a>
+              <p></p>
+              <p>
+                We propose Random Feature Approximation Distillation (RFAD), a principled approximation scheme for accelerating the prohibitively slow state-of-the-art dataset distillation algorithm, Kernel Inducing Points (KIP). Our algorithm performs as well as KIP but is over 100x faster and requires only a single GPU.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/ntk_evol.png' width="160"></div>
+                <img src='images/ntk_evol.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2210.12030">
+                <papertitle>Evolution of Neural Tangent Kernels under Benign and Adversarial
+                  Training</papertitle>
+              </a>
+              <br>
+              <strong>Noel Loo</strong>,
+              Ramin Hasani,
+              Alexander Amini,
+              Daniela Rus
+              <br>
+              <em>NeurIPS</em>, 2022
+              <br>
+              <a href="https://arxiv.org/abs/2210.12030">arXiv</a>
+              <p></p>
+              <p>
+                We empirically study the robustness of the learned finite-width NTK under benign and adversarial training. We find that surprisingly, the benign NTK learns robust features over time, and that linearized training on adversarial NTKs can exceed the robust accuracy of standard adversarial training.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
                   <img src='images/gvcl.png' width="160"></div>
                 <img src='images/gvcl.png' width="160">
               </div>
